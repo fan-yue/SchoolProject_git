@@ -1,0 +1,43 @@
+body{font-size:12px;}
+*{margin: 0;padding: 0;}
+a{text-decoration:none;}
+ul{list-style:none;}
+.fr{float: right;}
+/*nav*/
+.Y_header-w{width: 100%;background: #fff;border-bottom: 3px solid #cc0001;}
+.Y_header-w .header{height: 88px;width: 1000px;margin: 0 auto;position: relative;z-index: 13;}
+.Y_header-w .header h1 a{width: 208px;height: 59px;display: block;background: url(../img/Y1.png);text-indent:-9999px;float: left;margin-top: 10px;}
+/*主登录*/
+.login-cont{width: 1000px;margin: 30px auto 0 auto;}
+.login-cont .login-left{float: left;width: 600px;height: 358px;border: 1px dotted #ececec;margin-right: 20px;text-align: center;}
+.login-cont .login-right{float: right;}
+.login-cont .login-right .login-righta{width: 300px;height: 46px;display: block;overflow: hidden;text-align: right;line-height: 57px;background: url(../img/Y3.png) no-repeat -40px -264px;}
+.login-cont .login-right .login-righta a{margin-right: 20px;text-decoration: none;}
+.login-cont .login-right .blue{color:#3399cc;}
+.login-cont .login-right .login-righta .blue:hover{color:#cc0001;transition: color .3s}
+.login-cont .login-right .login-rightb{width: 258px;height:auto;position: relative;zoom:1;border-left: 1px solid #dcdcdc;border-right:1px solid #dcdcdc;padding: 15px 0 5px 40px;}
+.login-cont .login-right .login-rightb .email{position: relative;zoom:1;z-index: 300;width: 220px;}
+.login-cont .login-right .login-rightb .email > input{width: 218px;color: #a5a5a5;text-indent: 5px;line-height: 28px;}
+.login-cont .login-right .login-rightb .mt15{margin-top: 15px;}
+.login-cont .login-right .login-rightb .mt15 > input{width: 218px;color: #a5a5a5;text-indent: 5px;line-height: 28px;}
+.login-cont .login-right .login-rightb .login-error{width: 220px;margin-top: 10px;display: inline-block;}
+.login-cont .login-right .login-rightb .pt10{padding-top: 10px;}
+.login-cont .login-right .login-rightb .pt10 .loginsubmit{width: 220px;height: 34px;background: url(../img/Y3.png) no-repeat -120px -327px;border: none;cursor:pointer;}
+.login-cont .login-right .login-rightb .login-hezuo{border-bottom: 1px solid #d4d4d4;margin-top: 30px;color: #666;padding-bottom: 20px;}
+.login-cont .login-right .login-rightb .login-hezuo ul{margin-top: 5px;}
+.login-cont .login-right .login-rightb .login-hezuo ul li{float: left;margin-right: 10px;}
+.login-cont .login-right .login-rightb .login-hezuo ul li a{width: 16px;height: 16px;display: block;overflow: hidden;background: url(../img/Y3.png) no-repeat;}
+.login-cont .login-right .login-rightb .login-hezuo ul li .login_qq{background-position: -272px -229px;}
+.login-cont .login-right .login-rightb .login-hezuo ul li .login_weibo{background-position: -251px -229px;}
+.login-cont .login-right .login-rightb .login-hezuo ul li .login_zhifubao{background-position: -322px -67px;}
+.login-cont .login-right .login-rightb .login-hezuo ul li .login_renren{background-position: -293px -229px;}
+.login-cont .login-right .login-rightb .login-hezuo ul li .login_biadu{background-position: -15px -777px;}
+.login-cont .login-right .login-rightb .login-hezuo ul li .login_weixin{background-position: -42px -777px;}
+
+
+/*底部*/
+.footer{color: #999;width: 1000px;margin:10px auto;text-align: center;margin-top: 50px;padding-bottom: 15px;}
+.footer .pb15{padding-bottom: 15px;}
+.footer .pb15 .new{height: 35px;background: #f0f0f0;line-height: 35px;}
+.footer .pb15 .new a{color: #999;}
+.footer .pb15 .new a:hover{color: #cc0001;}

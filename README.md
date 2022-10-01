@@ -1,2 +1,2 @@
-# SchoolProject_git-
+# SchoolProject_git
 学校项目
